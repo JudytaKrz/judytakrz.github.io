@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Judyta Krzyzak
 -->
 <html>
 	<head>
@@ -17,7 +15,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="index.html">Industrious</a>
+				<a class="logo" href="index.html">Judyta</a>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
@@ -27,6 +25,8 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
+					<li><a href="elements.html">Projects</a></li>
+					<li><a href="elements.html">About me</a></li>
 					<li><a href="elements.html">Elements</a></li>
 					<li><a href="generic.html">Generic</a></li>
 				</ul>
