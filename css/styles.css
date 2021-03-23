@@ -810,6 +810,10 @@ input[type='checkbox'] {
 	padding-bottom: 3rem;
 }
 
+.basic-1 p, h2 {
+	color: #000 ;
+}
+
 .basic-1 .text-container {
 	margin-bottom: 3rem;
 }
@@ -1573,13 +1577,24 @@ input[type='checkbox'] {
 /*********************/
 /*     15. About     */
 /*********************/
+
+
 .counter {
 	padding-top: 6.875rem;
 	padding-bottom: 5.25rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/backgroundlight.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.counter h2, p {
+
+	color: #ffff;
 }
 
 .counter .image-container {
-	margin-bottom: 3rem;
+	margin-bottom: 8rem;
+	padding-top: 3rem;
+	padding-bottom: 2.125rem;
 }
 
 .counter .image-container img {
@@ -1606,6 +1621,7 @@ input[type='checkbox'] {
 
 .counter .list-unstyled .media-body {
 	margin-left: 0.625rem;
+	color: #ffffff;
 }
 
 .counter #counter {
@@ -1632,6 +1648,7 @@ input[type='checkbox'] {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 	vertical-align: middle;
+	color: #ffffff;
 }
 
 
@@ -1764,6 +1781,13 @@ input[type='checkbox'] {
 	padding: 2rem;
 	font-size: 30px;
 	text-decoration: none;
+
+}
+
+.copyright img {
+
+	width: 5rem;
+	height: 5rem;
 
 }
 
