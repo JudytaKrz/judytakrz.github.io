@@ -50,6 +50,7 @@ body,
 html {
     width: 100%;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body, p {
@@ -808,6 +809,10 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 6.5rem;
 	padding-bottom: 3rem;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .basic-1 p, h2 {
@@ -815,7 +820,10 @@ input[type='checkbox'] {
 }
 
 .basic-1 .text-container {
-	margin-bottom: 3rem;
+    background-size: cover;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .basic-1 .section-title {
@@ -1584,6 +1592,8 @@ input[type='checkbox'] {
 	padding-bottom: 5.25rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/backgroundlight.jpg') center center no-repeat;
 	background-size: cover;
+	height: 100%;
+
 }
 
 .counter h2, p {
@@ -1595,6 +1605,7 @@ input[type='checkbox'] {
 	margin-bottom: 8rem;
 	padding-top: 3rem;
 	padding-bottom: 2.125rem;
+	
 }
 
 .counter .image-container img {
@@ -1890,6 +1901,7 @@ a:hover.back-to-top {
 /*     21. Media Queries     */
 /*****************************/	
 /* Min-width width 768px */
+
 @media (min-width: 768px) {
 	
 	/* General Styles */
@@ -1972,6 +1984,8 @@ a:hover.back-to-top {
 	.header .header-content {
 		padding-top: 13rem;
 		padding-bottom: 7.5rem;
+		height: 100%;
+		
 	}
 
 	.header h1 {
