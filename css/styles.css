@@ -808,10 +808,6 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 6.5rem;
 	padding-bottom: 3rem;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .basic-1 p, h2 {
@@ -819,10 +815,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .text-container {
-    background-size: cover;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+	margin-bottom: 3rem;
 }
 
 .basic-1 .section-title {
@@ -1327,10 +1320,11 @@ input[type='checkbox'] {
 	padding-bottom: 7rem;
 }
 
-
 .filter .section-title {
-	margin-top: 5.5rem;
-	margin-bottom: 1.5rem;
+
+	 margin-bottom: 0.5rem;
+	/* margin-top: 1rem; */
+	/* margin-bottom: 1.5rem; */
 }
 
 .filter h2,
@@ -1902,34 +1896,35 @@ a:hover.back-to-top {
 
 @media (min-width: 140px) {
 
-	/* Header */
-	.header .header-content p span {
-		display: inline-block;
-	}
-
 	/* Projects */
-	h2 span{
-		display: inline-block;
-		}
-
-	/* Intro */
-	.basic-1 .testimonial-author {
-		color: #484a46;
-		padding-bottom: 3rem;
+	
+	.basic-1 {
+		padding-top: 6.5rem;
+		padding-bottom: 1rem;
 	}
-			
-	/* About */
 
-	.counter {
-		padding-top: 3rem;
-		padding-bottom: 5.25rem;
-		}
-
-	.counter .image-container {
+	.section-title {
+		margin-top: 1.5rem;
 		margin-bottom: 2rem;
 	}
-	
-	/* end of about */
+
+	h2 span{
+		display: inline-block;
+			}
+
+	.filter h2 {
+		margin-bottom: 0;
+	}
+
+	.filter {
+		padding-top: 0.5rem;
+		padding-bottom: 3rem;
+	}
+
+	.counter {
+		padding-top: 0.875rem;
+
+	}
 
 	/* Copyright */
 	.copyright h2 {
@@ -1960,25 +1955,6 @@ a:hover.back-to-top {
 
 @media (min-width: 360px) {
 
-	.header{
-
-		padding-bottom: 3rem;		
-	}
-
-	/* Intro */
-
-	/* Copyright */
-
-	.copyright h2 {
-		color: #ffffff;
-		font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-		font-weight: 300;
-		padding: 1rem;
-		font-size: 8vw;
-		text-decoration: none;
-		text-align: center;
-	}
-
 	.copyright h3 {
 		color: #ffffff;
 		font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
@@ -1996,27 +1972,6 @@ a:hover.back-to-top {
 }
 
 
-@media (max-width: 768px) {
-
-	.filter {
-		padding-top: 6rem;
-		padding-bottom: 4rem;
-	}
-
-	.filter .section-title {
-		margin-top: 2.5rem;
-		margin-bottom: 1.5rem;
-	}
-
-	.counter .image-container {
-		margin-bottom: 2rem;
-	}
-
-	.counter {
-		padding-top: 3rem;
-		padding-bottom: 5.25rem;
-	}
-}
 
 /* Min-width width 768px */
 
@@ -2029,6 +1984,8 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
+
+
 	/* end of general styles */
 
 
@@ -2233,15 +2190,19 @@ a:hover.back-to-top {
 
 
 /* Min-width width 900px */
-@media (min-width: 900px) {
-
-
+@media (min-width: 992px) {
 	
 	/* General Styles */
 	.p-heading {
 		width: 65%;
 	}
 	/* end of general styles */
+
+		.basic-1 {
+			padding-top: 6.5rem;
+			padding-bottom: 10rem;
+		}
+	
 
 
 	/* Navigation */
@@ -2487,8 +2448,6 @@ a:hover.back-to-top {
 	}
 }
 /* end of min-width width 900px */
-
-
 
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
